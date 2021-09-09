@@ -1,1 +1,1 @@
-# https://juergen-j.github.io/Juergen/
+# https://juergen-j.github.io/
