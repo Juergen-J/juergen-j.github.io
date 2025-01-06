@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio website of Juergen Jurk, a software developer specialized in Java and full-stack development.">
+    <meta name="keywords" content="Juergen Jurk, portfolio, Java developer, full-stack developer, Spring, Angular">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/preloader.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/form-style.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>Juergen Jurk</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="jqcloud/jqcloud.css"/>
+    <link rel="stylesheet" type="text/css" href="jqcloud/jqcloud.css" />
     <script type="text/javascript" src="jqcloud/jqcloud-1.0.4.min.js"></script>
     <script type="text/javascript" src="js/navigation-actions.js"></script>
     <script type="text/javascript" src="js/skills-cloud.js"></script>
@@ -22,266 +26,326 @@
     <link rel="icon" type="image/png" href="assets/favicon.png">
 
 </head>
+
 <body>
-<!-- preloader -->
-<div class="preloader">
-    <div class="preloader__row">
-        <div class="preloader__item"></div>
-        <div class="preloader__item"></div>
+    <!-- preloader -->
+    <div class="preloader">
+        <div class="preloader__row">
+            <div class="preloader__item"></div>
+            <div class="preloader__item"></div>
+        </div>
     </div>
-</div>
-<script>
-    window.onload = function () {
-        document.body.classList.add('loaded_hiding');
-        window.setTimeout(function () {
-            document.body.classList.add('loaded');
-            document.body.classList.remove('loaded_hiding');
-        }, 500);
-    }
-</script>
+    <script>
+        window.onload = function () {
+            document.body.classList.add('loaded_hiding');
+            window.setTimeout(function () {
+                document.body.classList.add('loaded');
+                document.body.classList.remove('loaded_hiding');
+            }, 500);
+        }
+    </script>
 
-<!--header-->
-<header class="header">
-    <nav class="navigation">
-        <a href="#home" class="active">
-            <div class="top-orange-for-nav hide-element"></div>
-            HOME </a>
-        <a href="#about-me">
-            <div class="top-orange-for-nav hide-element"></div>
-            ABOUT ME</a>
-        <a href="#skills">
-            <div class="top-orange-for-nav hide-element"></div>
-            SKILLS</a>
-        <a href="#my-works">
-            <div class="top-orange-for-nav hide-element"></div>
-            MY WORKS</a>
-        <a href="#contact">
-            <div class="top-orange-for-nav hide-element"></div>
-            CONTACT</a>
-    </nav>
-    <a href="#home">
-        <div class="logo"><img src="assets/logo-juergen-jurk-orange.png" alt="logo-juergen-jurk"></div>
-    </a>
-</header>
-<a name="home" class="hash"></a>
-<main>
-    <section class="main iam">
-        <div class="contact-logos">
-            <ul>
-                <li><a href="https://twitter.com/#!/JrgenJu" target="blank"><img
-                        src="./assets/social-003-round_twitter.png" alt="twitter-contact"></a></li>
-                <li><a href="https://www.linkedin.com/in/jürgen-jurk-11b638202/" target="blank"><img
-                        src="./assets/social-011-round_linkedin.png" alt="linkedin-contact"></a></li>
-                <li><a href="https://www.instagram.com/jurgen_jurk" target="blank"><img
-                        src="./assets/social-038-round_instagram.png" alt="instagram"></a></li>
-                <li><a href="https://github.com/Juergen-J" target="blank"><img
-                        src="./assets/social-041-round_github.png" alt="github"></a></li>
-                <li><a href="mailto:yurk.jur@gmail.com" target="blank"><img src="./assets/social-067-round_gmail.png"
-                                                                            alt="gmail-contact"></a></li>
-
-            </ul>
-        </div>
-        <h1 class="text_heading">I am Juergen Jurk</h1>
-        <div class="label_animation text_content">
-            <h2 id="header-text-change" class="h2-one"></h2>
-        </div>
-        <div class="white-triangle"></div>
-
-        <a href="#about-me" class="to-down">
-            <i class="material-icons">expand_more</i>
-        </a>
-
-    </section>
-    <section class="content">
-        <a name="about-me" class="hash"></a>
-        <h3>About Me</h3>
-        <div class="content-wrapper">
-            <div class="inside-content about-me">
-                <img src="assets/about-me.jpg" alt="about-me-background">
+    <!--header-->
+    <header class="header">
+        <nav class="navigation">
+            <a href="#home" class="active">
+                <div class="top-orange-for-nav hide-element"></div>
+                HOME
+            </a>
+            <a href="#about-me">
+                <div class="top-orange-for-nav hide-element"></div>
+                ABOUT ME
+            </a>
+            <a href="#skills">
+                <div class="top-orange-for-nav hide-element"></div>
+                SKILLS
+            </a>
+            <a href="#my-works">
+                <div class="top-orange-for-nav hide-element"></div>
+                MY WORKS
+            </a>
+            <a href="#contact">
+                <div class="top-orange-for-nav hide-element"></div>
+                CONTACT
+            </a>
+        </nav>
+        <a href="#home">
+            <div class="logo"><img src="assets/logo-juergen-jurk-orange.png" alt="logo-juergen-jurk" loading="lazy">
             </div>
-            <div class="inside-content">
-                <div class="hi-there">
-                    <h4>Hi There</h4>
-                </div>
-                <div class="white-triangle-two"></div>
-                <p>All my life I have been interested in the modern technologies. <br>
-                    I worked in such areas as Internet Communication and Personal Management.
-                    In 2019 I have decided to make programming my profession.
-                <p>
-                    I worked as a “Junior Java developer” in “Adler Technology” (Berlin, Germany) and studied as a full
-                    stack developer in Tel-Ran international school of technology.
-                    My responsibility included design and development of user interface using Java/J2EE, providing
-                    technical support and knowledge transfer to my co-workers.
-                    I am enthusiastic about mastering actual frameworks and tools such as Spring and Angular.
-                <p>I also like reading, swimming and climbing.
+        </a>
+    </header>
+    <a name="home" class="hash"></a>
+    <main>
+        <section class="main iam">
+            <div class="contact-logos">
+                <ul>
+                    <li><a href="https://twitter.com/#!/JrgenJu" target="blank"><img
+                                src="./assets/social-003-round_twitter.png" alt="twitter-contact"></a></li>
+                    <li><a href="https://www.linkedin.com/in/jürgen-jurk-11b638202/" target="blank"><img
+                                src="./assets/social-011-round_linkedin.png" alt="linkedin-contact"></a></li>
+                    <li><a href="https://www.instagram.com/jurgen_jurk" target="blank"><img
+                                src="./assets/social-038-round_instagram.png" alt="instagram"></a></li>
+                    <li><a href="https://github.com/Juergen-J" target="blank"><img
+                                src="./assets/social-041-round_github.png" alt="github"></a></li>
+                    <li><a href="mailto:yurk.jur@gmail.com" target="blank"><img
+                                src="./assets/social-067-round_gmail.png" alt="gmail-contact"></a></li>
 
-                </p>
-                <div class="contacts-about-me-container">
+                </ul>
+            </div>
+            <h1 class="text_heading">I am Juergen Jurk</h1>
+            <div class="label_animation text_content">
+                <h2 id="header-text-change" class="h2-one"></h2>
+            </div>
+            <div class="white-triangle"></div>
+
+            <a href="#about-me" class="to-down">
+                <i class="material-icons">expand_more</i>
+            </a>
+
+        </section>
+        <section class="content">
+            <a name="about-me" class="hash"></a>
+            <h3>About Me</h3>
+            <div class="content-wrapper">
+                <div class="inside-content about-me">
+                    <img src="assets/about-me.jpg" alt="about-me-background">
+                </div>
+                <div class="inside-content">
+                    <div class="hi-there">
+                        <h4>Hi There</h4>
+                    </div>
+                    <div class="white-triangle-two"></div>
+                    <p>Throughout my career, I have been deeply engaged in modern technologies and software development.
+                        <br>
+                        I specialize in Java-based backend development using frameworks like Spring Boot, Spring MVC,
+                        and Spring Data (JPA/Hibernate), as well as frontend development with Angular and TypeScript. I
+                        have hands-on experience with microservices architecture, REST APIs, and CI/CD pipelines using
+                        tools like Jenkins and Docker.
+                    </p>
+                    <p>
+                        My professional journey includes roles as a Full Stack Developer at Ströer Connections GmbH and
+                        Assecor GmbH, where I actively participated in designing and developing web applications,
+                        optimizing infrastructure, and maintaining high code quality through rigorous testing and code
+                        reviews.
+                    </p>
+                    <p>
+                        I am enthusiastic about learning and implementing new technologies, sharing knowledge with my
+                        team, and continuously improving processes. In addition to my technical expertise, I enjoy
+                        reading, swimming, and climbing in my leisure time.
+                    </p>
+
+                    <div itemscope itemtype="http://schema.org/Person">
+                        <div class="contacts-about-me-container">
+                            <div class="contact-in-about-me-container">
+                                <span class="orange">Name:</span><br>
+                                <span itemprop="name">Jürgen Jurk</span>
+                            </div>
+                            <div class="contact-in-about-me-container">
+                                <span class="orange">Email:</span> <br>
+                                <span itemprop="email">yurk.jur@gmail.com</span>
+                            </div>
+                            <div class="contact-in-about-me-container">
+                                <span class="orange">Phone:</span> <br>
+                                <span itemprop="telephone">+49 1798159192</span>
+                            </div>
+                            <div class="contact-in-about-me-container"><span class="orange">Twitter:</span>
+                                <br><span>JrgenJu</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="contacts-about-me-container">
                     <div class="contact-in-about-me-container"><span class="orange">Name:</span><br>
                         <span>Jürgen Jurk</span></div>
                     <div class="contact-in-about-me-container"><span class="orange">Email:</span> <br><span>yurk.jur@gmail.com</span>
                     </div>
                     <div class="contact-in-about-me-container"><span class="orange">Phone:</span> <br><span>+49 1798159192</span>
                     </div>
-                    <div class="contact-in-about-me-container"><span class="orange">Twitter:</span>
-                        <br><span>JrgenJu</span>
-                    </div>
-                </div>
-                <hr class="line">
-                <div class="buttons">
-                    <div class="button-item">
-                        <a href="#contact" class="btn-1">CONTACT ME
-                        </a>
-                    </div>
-                    <div class="button-item">
-                        <a href="https://drive.google.com/file/d/184tM8QFxGWz_ejSRUCpmKC8itz4CPlyq/view?usp=sharing" class="btn-2" target="_blank">DOWNLOAD CV</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="content">
-        <img src="assets/library.jpg" alt="library" id="library">
-        <a name="skills" class="hash"></a>
-        <h3>My Skills</h3>
-        <div class="content-wrapper">
-            <div class="inside-content">
-                <span class="skills-heading">Every Day is a New Challenge</span>
-                <p>I have experience in:
-                    <br>JAVA : J2EE, Design Pattern, Spring Boot, Spring Web, Spring MVC, Spring Data(JPA
-                    Hibernate), JUnit, Mockito;<br> WEB : HTML/CSS, JS, TypeScript, Angular; <br>DB : MySQL, PostgreSQL;
-                    <br>Other : Gradle, Maven,
-                    Apache Tomcat and Docker.
-                <p>I worked on Project(s) like web applications development and web design. During these projects I
-                    used HTML/CSS, Javascript and Angular for data entry front end, JavaEE Spring for data entry
-                    back end and PostgreSQL for backend storage.
-                    The work on these projects was a great chance for me to start my active accumulation of experience.
-                </p>
-                <br>
-                <br>
-                <a href="#contact" id="btn-skills">CONTACT ME
-                </a>
-            </div>
-            <div class="inside-content" id="skills-cloud"></div>
-        </div>
-    </section>
-    <section class="content">
-        <a name="my-works" class="hash"></a>
-        <h3>My Works</h3>
-        <div class="library">
-            <div class="works-container">
-                <div class="effects">
-                    <div class="item">
-                        <img src="assets/works/angular-heroes.png" alt="heroes">
-                        <div>
-                            <div class="works-container">
-                                <h5>Heroes</h5>
-                                <p>Angular, Typescript, HTML/CSS</p>
-                                <a href="https://github.com/Juergen-J/Projects/tree/main/hello-angular">more...</a>
-                            </div>
+                </div> -->
+                    <hr class="line">
+                    <div class="buttons">
+                        <div class="button-item">
+                            <a href="#contact" class="btn-1">CONTACT ME
+                            </a>
+                        </div>
+                        <div class="button-item">
+                            <a href="https://drive.google.com/file/d/184tM8QFxGWz_ejSRUCpmKC8itz4CPlyq/view?usp=sharing"
+                                class="btn-2" target="_blank">DOWNLOAD CV</a>
                         </div>
                     </div>
-                    <div class="item">
-                        <img src="assets/works/heroes-backend.png" alt="heroes-backend">
-                        <div>
-                            <div class="works-container">
-                                <h5>Backend for Heroes</h5>
-                                <p>Spring, JUnit, Mockito, DB</p>
-                                <a href="https://github.com/Juergen-J/Projects/tree/main/21_08_28_back_for%20_heroes">more...</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="assets/works/this-site.png" alt="this-site">
-                        <div>
-                            <div class="works-container">
-                                <h5>This Site</h5>
-                                <p>JavaScript, JQuery, HTML5, CSS</p>
-                                <a href="https://github.com/Juergen-J/juergen-j.github.io">more...</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="assets/works/phonebook.png" alt="phonebook">
-                        <div>
-                            <div class="works-container">
-                                <h5>Phonebook</h5>
-                                <p>Spring, Angular, TypeScript, Bootstrap</p>
-                                <a href="https://github.com/tel-ran-de/phonebook-16-19-2">more...</a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-    </section>
-    <div class="contact-wrapper">
-        <img src="assets/footer-background.jpg" alt="contact-me">
-        <section class="content">
-            <div class="contact-bar">
-                <div class="bar">
-                    <img src="assets/icon-map.png" alt="pin">
-                    <span>Address</span>
-                    <p>Malteserstrasse 154</p>
-                    <p>12277 Berlin</p>
-                </div>
-                <div class="bar">
-                    <img src="assets/icon-phone.png" alt="phone">
-                    <span>Phone</span>
-                    <p>+49 179-815-9192</p>
-                </div>
-                <div class="bar">
-                    <img src="assets/icon-post.png" alt="insta">
-                    <span>Email</span>
-                    <p>yurk.jur@gmail.com</p>
-                </div>
-                <div class="bar">
-                    <img src="assets/icon-message.png" alt="">
-                    <span>Facebook Chat</span>
-                    <p>
-                        jurgen.jurk.5
-                    </p></div>
-            </div>
-            <a name="contact" class="hash"></a>
-            <div class="content-wrapper contacts-form">
-                <div class="inside-content"><span>Let’s Connect</span>
-                    <div class="contact-logo-contact"><a href="https://www.linkedin.com/in/jürgen-jurk-11b638202/"
-                                                         target="blank"><img src="assets/i-linkedin.png" alt="linkedin">Linkedin</a>
-                    </div>
-                    <div class="contact-logo-contact"><a href="https://twitter.com/#!/JrgenJu" target="blank"><img
-                            src="assets/i-twitter.png" alt="twitter">Twitter</a></div>
-                    <div class="contact-logo-contact"><a href="https://www.instagram.com/jurgen_jurk"
-                                                         target="blank"><img src="assets/i-instagram.png"
-                                                                             alt="instagram">Instagram</a></div>
-                    <div class="contact-logo-contact"><a href="https://github.com/Juergen-J" target="blank"><img
-                            src="assets/i-github.png" alt="github">GitHub</a></div>
-                    <div class="contact-logo-contact"><a href="https://www.facebook.com/jurgen.jurk.5/"
-                                                         target="blank"><img
-                            src="assets/i-facebook.png" alt="facebook">Facebook</a></div>
-                </div>
-
-                <div class="inside-content"><span>Send Me a Message</span>
-                    <form id="fs-frm" name="complaint-form" accept-charset="utf-8"
-                          action="https://formspree.io/f/mgerdvlz" method="POST">
-                        <fieldset id="fs-frm-inputs">
-                            <label for="email-address">Email *</label>
-                            <input type="email" name="_replyto" id="email-address" placeholder="Email"
-                                   required="">
-                            <label for="complaint">Message *</label>
-                            <textarea type="text" rows="10" name="message" id="complaint" placeholder="Message"
-                                      required=""></textarea>
-                        </fieldset>
-                        <input type="submit" value="SEND A MESSAGE">
-                    </form>
                 </div>
             </div>
         </section>
-    </div>
-</main>
-<footer><span>Made in 2021 &#128578 JJ</span><a href=""></a>
-    <div class="to-top-bottom"><a href="#home"><i class="material-icons">arrow_upward</i></a></div>
-</footer>
+        <section class="content">
+            <img src="assets/library.jpg" alt="library" id="library">
+            <a name="skills" class="hash"></a>
+            <h3>My Skills</h3>
+            <div class="content-wrapper">
+                <div class="inside-content">
+                    <span class="skills-heading">Every Day is a New Challenge</span>
+                    <p>I have experience in:
+                        <br>Programming Languages: Java, JavaScript, TypeScript;
+                        <br>Backend Frameworks: Spring Boot, Spring Web, Spring MVC, Spring Data (JPA/Hibernate), Spring
+                        Security, Spring Webflux;
+                        <br>Frontend Frameworks: Angular;
+                        <br>Databases: MySQL, PostgreSQL, DB2, MongoDB;
+                        <br>DevOps & CI/CD Tools: Jenkins, Docker, Kubernetes;
+                        <br>Build & Dev Tools: Gradle, Maven, Git, Postman;
+                        <br>Testing Tools: JUnit, Mockito, Spock;
+                        <br>Other: Kafka, RabbitMQ, ActiveMQ.
+                    </p>
+                    <p>
+                        I have worked on various projects, including the development of microservices, web applications,
+                        and web design. My responsibilities involved creating frontend interfaces using Angular, HTML,
+                        and CSS, implementing backend services with Java and Spring, and managing databases with
+                        PostgreSQL and MySQL. These projects provided me with extensive hands-on experience in
+                        full-stack development and modern web application architecture.
+                    </p>
+
+                    <br>
+                    <br>
+                    <a href="#contact" id="btn-skills">CONTACT ME
+                    </a>
+                </div>
+                <div class="inside-content" id="skills-cloud"></div>
+            </div>
+        </section>
+        <section class="content">
+            <a name="my-works" class="hash"></a>
+            <h3>My Works</h3>
+            <div class="library">
+                <div class="works-container">
+                    <div class="effects">
+                        <div class="item">
+                            <img src="assets/works/wonda.png" alt="heroes">
+                            <div>
+                                <div class="works-container">
+                                    <h5>Wonda</h5>
+                                    <p>Java, SpringBoot, MySQL, Typescript, HTML/CSS</p>
+                                    <a href="https://www.wonda.online/">more...</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="assets/works/datev.png" alt="heroes">
+                            <div>
+                                <div class="works-container">
+                                    <h5>Arbeitmehmer Online</h5>
+                                    <p>Java, SpringBoot, PostgreSQL</p>
+                                    <a href="https://apps.datev.de/ano/">more...</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="assets/works/t-bot.png" alt="heroes">
+                            <div>
+                                <div class="works-container">
+                                    <h5>Telegram Bot</h5>
+                                    <p>Java, SpringBoot ,Python, MongoDB</p>
+                                    <a href="https://t.me/BerlinServicePortal_Bot">more...</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="assets/works/heroes-backend.png" alt="heroes-backend">
+                            <div>
+                                <div class="works-container">
+                                    <h5>Backend for Heroes</h5>
+                                    <p>Spring, JUnit, Mockito, DB</p>
+                                    <a
+                                        href="https://github.com/Juergen-J/Projects/tree/main/21_08_28_back_for%20_heroes">more...</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="assets/works/this-site.png" alt="this-site">
+                            <div>
+                                <div class="works-container">
+                                    <h5>This Site</h5>
+                                    <p>JavaScript, JQuery, HTML5, CSS</p>
+                                    <a href="https://github.com/Juergen-J/juergen-j.github.io">more...</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="assets/works/phonebook.png" alt="phonebook">
+                            <div>
+                                <div class="works-container">
+                                    <h5>Phonebook</h5>
+                                    <p>Spring, Angular, TypeScript, Bootstrap</p>
+                                    <a href="https://github.com/tel-ran-de/phonebook-16-19-2">more...</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <div class="contact-wrapper">
+            <img src="assets/footer-background.jpg" alt="contact-me">
+            <section class="content">
+                <div class="contact-bar">
+                    <div class="bar">
+                        <img src="assets/icon-map.png" alt="pin">
+                        <span>Address</span>
+                        <p>Simpsonweg</p>
+                        <p>12305 Berlin</p>
+                    </div>
+                    <div class="bar">
+                        <img src="assets/icon-phone.png" alt="phone">
+                        <span>Phone</span>
+                        <p>+49 179-815-9192</p>
+                    </div>
+                    <div class="bar">
+                        <img src="assets/icon-post.png" alt="insta">
+                        <span>Email</span>
+                        <p>yurk.jur@gmail.com</p>
+                    </div>
+                    <div class="bar">
+                        <img src="assets/icon-message.png" alt="">
+                        <span>Facebook Chat</span>
+                        <p>
+                            jurgen.jurk.5
+                        </p>
+                    </div>
+                </div>
+                <a name="contact" class="hash"></a>
+                <div class="content-wrapper contacts-form">
+                    <div class="inside-content"><span>Let’s Connect</span>
+                        <div class="contact-logo-contact"><a href="https://www.linkedin.com/in/jürgen-jurk-11b638202/"
+                                target="blank"><img src="assets/i-linkedin.png" alt="linkedin">Linkedin</a>
+                        </div>
+                        <div class="contact-logo-contact"><a href="https://twitter.com/#!/JrgenJu" target="blank"><img
+                                    src="assets/i-twitter.png" alt="twitter">Twitter</a></div>
+                        <div class="contact-logo-contact"><a href="https://www.instagram.com/jurgen_jurk"
+                                target="blank"><img src="assets/i-instagram.png" alt="instagram">Instagram</a></div>
+                        <div class="contact-logo-contact"><a href="https://github.com/Juergen-J" target="blank"><img
+                                    src="assets/i-github.png" alt="github">GitHub</a></div>
+                        <div class="contact-logo-contact"><a href="https://www.facebook.com/jurgen.jurk.5/"
+                                target="blank"><img src="assets/i-facebook.png" alt="facebook">Facebook</a></div>
+                    </div>
+
+                    <div class="inside-content"><span>Send Me a Message</span>
+                        <form id="fs-frm" name="complaint-form" accept-charset="utf-8"
+                            action="https://formspree.io/f/mgerdvlz" method="POST">
+                            <fieldset id="fs-frm-inputs">
+                                <label for="email-address">Email *</label>
+                                <input type="email" name="_replyto" id="email-address" placeholder="Email" required="">
+                                <label for="complaint">Message *</label>
+                                <textarea type="text" rows="10" name="message" id="complaint" placeholder="Message"
+                                    required=""></textarea>
+                            </fieldset>
+                            <input type="submit" value="SEND A MESSAGE">
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer><span>Made in 2021 &#128578 JJ</span><a href=""></a>
+        <div class="to-top-bottom"><a href="#home"><i class="material-icons">arrow_upward</i></a></div>
+    </footer>
 </body>
+
 </html>
